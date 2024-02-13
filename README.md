@@ -1,6 +1,6 @@
-# 🎋 **Introduction:**
+# 🎋 **The Project Documentation:**
 
-This repository serves as the showcase for Stoic-Coder's personal portfolio, offering a glimpse into skills and projects as a UI/UX Developer. The portfolio is meticulously designed to provide a visually appealing and informative representation of capabilities.
+This repository serves as the showcase for Stoic-Coder's portfolio, offering a glimpse into skills and projects as a UI/UX Developer. The portfolio is meticulously designed to provide a visually appealing and informative representation of capabilities.
 
 # 📦 **Tech Stack:**
 
@@ -22,10 +22,16 @@ The journey commenced with an exploration of HTML, CSS, and JavaScript. The port
 
 ## 2. Figma Design
 - Completed Figma Design, guiding the subsequent HTML and CSS development.
+  
+  ![image](https://github.com/ShubhMehrotra19/My-Portfolio/assets/110672923/27645782-1d16-4950-bd86-d5d598661ae0)
+
 
 ## 3. Development
 - Initiated development with HTML and CSS, focusing on the basic site structure.
 - Implemented hover features to enhance user interactions.
+
+  ![image](https://github.com/ShubhMehrotra19/My-Portfolio/assets/110672923/03b7891a-371e-4843-809a-5b6801134a2f)
+
 
 # 📚 **Learnings:**
 
@@ -41,7 +47,9 @@ The journey commenced with an exploration of HTML, CSS, and JavaScript. The port
 
 1. Clone the repository: `git clone https://github.com/Stoic-Coder2003/My-Portfolio.git`
 2. Open `index.html` in your preferred browser.
+3. You may directly, view the deployed site at : https://shubh-mehrotra.vercel.app/
 
-# 📸 **Video or Image:**
+# 📸 **Project Image:**
 
-![Shubh Mehrotra Portfolio](https://github.com/Stoic-Coder2003/My-Portfolio/blob/main/assets/135078403/2f2f527a-c23f-4ef3-9f9d-b5487dc0cc97.png)
+![Github_potfolioImg](https://github.com/ShubhMehrotra19/My-Portfolio/assets/110672923/7543ab5b-ed21-4310-9727-5637fc3c27e0)
+
