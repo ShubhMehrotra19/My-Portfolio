@@ -1,0 +1,214 @@
+
+#portfolio_logo{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+    margin: 15px 45px;
+}
+
+#maintxt{
+    position: absolute;
+    margin: 78px 614px 496px 53px;
+    color: #000;
+    font-size: 64px;
+    font-family: "Poppins", system-ui;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 85.3px;
+    display: flex;
+    width: 773px;
+    height: 285px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+#enter1,
+#enter2,
+#enter3 {
+    font-size: 20px; /* Update the desired font size */
+    font-family: "Poppins", sans-serif; /* Use Poppins font family */
+}
+
+
+#img1{
+    position: absolute;
+    width: 294px;
+    height: 400px;
+    flex-shrink: 0;
+    margin: 384px 1083px 75px 53px;
+}
+
+#subtxt{
+    position: absolute;
+    display: flex;
+    width: 439px;
+    height: 180px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 96px;
+    font-family: "Poppins", system-ui ;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 85.3px;
+    margin: 396px 673px 283px 328px;
+}
+
+#connect{
+    position: absolute;
+    display: flex;
+    width: 206px;
+    flex-shrink: 0;
+    color: #000;
+    text-align: center;
+    font-size: 17px;
+    font-family: "Inter", system-ui;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    margin: 24px 51px 775px 1220px;
+}
+
+#behance{
+    position: absolute;
+    width: 34px;
+    height: 35.154px;
+    flex-shrink: 0;
+    margin: 96.4px 224px 727px 1182px;
+}
+
+#linkedin{
+    position: absolute;
+    width: 34px;
+    height: 35.154px;
+    flex-shrink: 0;
+    margin: 96.4px 168px 727px 1238px;
+}
+
+#email{
+    position: absolute;
+    width: 37px;
+    height: 35.154px;
+    flex-shrink: 0;
+    margin: 96.4px 109px 727px 1294px;
+}
+
+#discord{
+    position: absolute;
+    width: 37px;
+    height: 35.154px;
+    flex-shrink: 0;
+    margin: 96.4px 50px 727px 1353px;
+}
+
+#mail{
+    position: absolute;
+    display: flex;
+    width: 126px;
+    height: 33px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 24px;
+    font-family: "Inter", system-ui;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46.8px;
+    margin: 269px 471px 537px 843px;
+}
+
+#enter1{
+    position: absolute;
+    width: 547px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: #FFF;
+    margin: 302px 50px 457px 843px;
+}
+
+#cont{
+    position: absolute;
+    display: flex;
+    width: 126px;
+    height: 33px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 24px;
+    font-family: "Inter", system-ui;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46.8px;
+    margin: 422px 471px 384px 843px;
+}
+
+#enter2{
+    position: absolute;
+    width: 547px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: #FFF;
+    margin: 455px 50px 304px 843px;
+}
+
+#info{
+    position: absolute;
+    display: flex;
+    width: 150px;
+    height: 33px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #000;
+    font-size: 24px;
+    font-family: "Inter", system-ui;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 46.8px;
+    margin: 575px 447px 231px 843px;
+}
+
+#enter3{
+    position: absolute;
+    width: 547px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: #FFF;
+    margin: 608px 50px 151px 843px;
+}
+
+#submitbtn{
+    position: absolute;
+    width: 242px;
+    height: 80px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #000;
+    margin: 731px 50px 28px 1148px;
+}
+
+button span{
+    width: 183px;
+    height: 49.302px;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-family: "Inter", system-ui;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 46.8px;
+}

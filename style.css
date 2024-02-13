@@ -1,0 +1,398 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow-x: clip;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: "Inter", system-ui;
+    font-style: normal;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 86px;
+    background: rgba(0, 0, 0, 0.07);
+    backdrop-filter: blur(5px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    z-index: 20;
+}
+
+.logo {
+    width: 48.375px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #161616;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    padding: 0 1.67rem;
+}
+
+nav a:hover {
+    text-decoration: #FFFFFF;
+    color: #b4b4b4;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 23.4px;
+    padding: 0 1.67rem;
+}
+
+.main--container{
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#landing--page{
+    padding-top: 86px;
+}
+
+
+
+
+#text {
+    width: 944px;
+    text-align: center;
+    margin-top: -100px;
+    font-size: 42px;
+    font-family: "Poppins", system-ui;
+    font-weight: 600;
+    line-height: 60px;
+}
+
+#connect {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+    background: #000;
+    padding: 24px 49.59px 25.59px 50px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+#connect:hover{
+    color: #000000;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21.6px;
+    background-color: #FFFFFF;
+    border: 2px solid black;
+    padding: 24px 49.59px 25.59px 50px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+
+#description{
+    width: 844.45px;
+    text-align: left;
+    color: #000;
+    font-size: 34px;
+    font-weight: 500;
+}
+
+#arms-crossed{
+    width: 351.44px;
+    height: 500px;
+    flex-shrink: 0;
+}
+
+#moving-image {
+    width: 461px;
+    height: 298px;
+    position: absolute;
+    left: -10%;
+    transform: translateY(100%);
+    margin-top: -80px;
+    transition: left 1s, top 1s;
+}
+
+#moving-image.move {
+    animation: moveAnimation 2.5s forwards;
+}
+
+@keyframes moveAnimation {
+    0% {
+        left: -10%;
+        top: 152%;
+    }
+    100% {
+        left: 1100px;
+        top: 390px;
+    }
+}
+#bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1330px;
+    height: 281px;
+    border-radius: 20px;
+    background: #000;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+#figma{
+    width: 80px;
+    height: 80px;
+    flex-shrink: 0;
+}
+
+#lunacy{
+    width: 100px;
+    height: 109.623px;
+    flex-shrink: 0;
+}
+
+#ps{
+    width: 100px;
+    height: 109.623px;
+    flex-shrink: 0;
+
+}
+
+#webf{
+    width: 120px;
+    height: 131.548px;
+    flex-shrink: 0;
+}
+
+#ux{
+    width: 120px;
+    height: 120px;
+    flex-shrink: 0;
+}
+
+#heading--designs{
+    text-align: center;
+    font-size: 180px;
+    font-family: "Inter", system-ui;
+    font-style: normal;
+    font-weight: 800;
+    margin-top: 50px;
+}
+
+.head--pro{
+    font-size: 25px;
+    font-family: "Inter", system-ui;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 28.6px;
+    text-transform: uppercase;
+}
+
+.sub--pro{
+    color: #000;
+    font-size: 13px;
+    font-family: "Inter", system-ui;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.8px;
+    text-transform: uppercase;
+}
+
+.project--image{
+    width: 590px;
+    height: 590px;
+    flex-shrink: 0;
+    border-radius: 10px;
+}
+
+.holder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+ }
+
+.holder1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+    margin-left: 210px;
+    padding-bottom: 100px;
+
+}
+.project--placement{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    flex-direction: column;
+    gap: 150px;
+    margin: 25px;
+}
+
+#left-element {
+    margin-bottom: 250px;
+}
+
+#right-element{
+    margin-top: 250px;
+}
+
+.plane--2{
+    width: 1313px;
+    height: 538px;
+    transform: rotate(-7.936deg);
+    flex-shrink: 0;
+    padding-top: 117px;
+    margin-right: 35px
+}
+
+#asking{
+    width: 669px;
+    font-size: 99px;
+    font-weight: 700;
+    line-height: 110px;
+    text-transform: uppercase;
+    margin-left: -530px;
+}
+
+#hands--crossed{
+    width: 378px;
+    height: 552px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#small-text1{
+    width: 540px;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 25.2px;
+}
+
+#big--text1{
+    width: 745px;
+    font-size: 80px;
+    font-weight: 600;
+    line-height: 88px;
+    text-transform: uppercase;
+    margin-top: 25px;
+}
+
+.big--text2{
+    text-align: center;
+    font-size: 99px;
+    font-weight: 700;
+    line-height: 110px;
+    text-transform: uppercase;
+    padding-bottom: 50px;
+    margin-top: 25px;
+}
+
+.small-text2{
+    width: 1163px;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    padding-bottom: 100px;
+}
+
+#chefio--image{
+    margin-top: 35px;
+    margin-bottom:60px;
+}
+
+#medicol--image{
+    margin-top: 35px;
+    margin-bottom:60px;
+}
+
+.element{
+margin: 10px;
+}
+
+#trigger-area{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+#logos{
+    padding: 10px;
+}
+
+#ending--text{
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+
+#end-part{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#conclusion{
+    width: 1163px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 34px;
+    padding-bottom: 50px;
+}
+
+#pointing{
+    display: flex;
+    justify-content: center;
+    animation: motionAnimation 2s  ease-in-out 8;
+}
+
+#motion-area{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@keyframes motionAnimation {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(+25px);
+    }
+    50% {
+        transform: translateY(0);
+    }
+    75% {
+        transform: translateY(+25px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
