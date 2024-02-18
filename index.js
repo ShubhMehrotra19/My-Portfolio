@@ -13,3 +13,9 @@ triggerArea.addEventListener('mouseenter', () => {
 triggerArea.addEventListener('mouseleave', () => {
     motionObject.style.animationPlayState = 'paused'; // Pause the animation
 });
+
+function toggleMobileMenu() {
+    var mobileMenu = document.getElementById("mobileMenu");
+    mobileMenu.classList.toggle("show");
+  }
+  

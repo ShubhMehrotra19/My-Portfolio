@@ -757,3 +757,52 @@ margin: 10px;
         display: block;
     }
 }
+
+
+.mobile-menu-icon {
+    display: none; 
+    cursor: pointer;
+  }
+  
+  .mobile-menu {
+    display: none;
+    position: absolute;
+    top: 86px; 
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px); 
+    z-index: 21; 
+  }
+  
+  .mobile-menu a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    .nav-items {
+      display: none; 
+    }
+  
+    .mobile-menu-icon {
+      display: block;
+      margin-right: 30px; 
+      font-style: normal;
+      font-weight: 500;
+      font-size: 20px;
+    }
+  
+    #navbar {
+      justify-content: space-between;
+    }
+  
+    #mobileMenu.show {
+        animation-duration: 0.5s;
+      display: block; 
+    }
+  }
+  
