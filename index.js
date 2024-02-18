@@ -18,4 +18,13 @@ function toggleMobileMenu() {
     var mobileMenu = document.getElementById("mobileMenu");
     mobileMenu.classList.toggle("show");
   }
+  function preventLinkClick(event) {
+    event.preventDefault();
+    var mobileMenu = document.getElementById("mobileMenu");
+    mobileMenu.classList.remove("show");
+  }
+  var mobileLinks = document.querySelectorAll('.mobile-menu a');
+  mobileLinks.forEach(function(link) {
+    link.addEventListener('click', preventLinkClick);
+  });
   
