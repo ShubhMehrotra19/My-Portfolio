@@ -43,8 +43,8 @@ nav a {
     padding: 0 1.67rem;
 }
 
-nav a:hover {
-    text-decoration: #FFFFFF;
+#navbar a:hover {
+    text-decoration: underline;
     color: #b4b4b4;
     font-size: 18px;
     font-weight: 500;
@@ -65,7 +65,13 @@ nav a:hover {
     padding-top: 86px;
 }
 
+#desktop-img{
+    display: block;
+}
 
+#mobile-img{
+    display: none;
+}
 
 
 #text {
@@ -238,8 +244,8 @@ nav a:hover {
     gap: 70px;
     margin-left: 210px;
     padding-bottom: 100px;
-
 }
+
 .project--placement{
     display: flex;
     justify-content: center;
@@ -396,3 +402,358 @@ margin: 10px;
     }
 }
 
+#arms-crossed-mobile{
+    display: none;
+}
+
+#bar-mobile{
+    display: none;
+}
+
+#mobile-plane{
+    display: none;
+}
+
+.holder-mobile{
+    display: none;
+}
+
+#chefio--image2{
+    display: none;
+}
+
+#medicol--image2{
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        overflow-x: clip;
+    }
+
+    html{
+        scroll-behavior: smooth;
+    }
+    
+    body{
+        font-family: "Inter", system-ui;
+        font-style: normal;
+    }
+    
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 86px;
+        background: rgba(0, 0, 0, 0.07);
+        backdrop-filter: blur(5px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5px;
+        z-index: 20;
+    }
+    
+    .logo {
+        width: 45px;
+        height: 45px;
+        flex-shrink: 0;
+    }
+    
+    nav a {
+        color: #000;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 23.4px; /* 146.25% */
+    }
+    
+
+    #desktop-img {
+        display: none;
+    }
+
+    #mobile-img {
+        display: block;
+        margin-bottom: 120px;
+    }
+
+    #text{
+        padding: 0 20px;
+        display: flex;
+        width: 100%;
+        height: 106px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 41.5px; /* 230.556% */
+        margin-bottom: 60px;
+    }
+
+    #connect{
+        display: flex;
+        align-items: center;
+        padding: 15px 18px;
+        height: 50px;
+        border-radius: 10px;
+        background: #000;
+        color: #FFF;
+        text-align: center;
+        font-family: Inter;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+    }
+
+    #connect:hover{
+        color: #000000;
+        text-align: center;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        background-color: #FFFFFF;
+        border: 2px solid black;
+        border-radius: 10px;
+        padding: 15px 18px;
+    }
+
+    #moving-image{
+        display: none;
+    }
+
+    #arms-crossed {
+        display: none; 
+    }
+
+    #arms-crossed-mobile {
+        display: flex;
+        scale: 0.75;
+        flex-shrink: 0;
+    }
+
+    #description{
+        padding: 0 30px;
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 36.3px; 
+        margin-bottom: 40px;
+        width: fit-content;
+        height: 294px;
+        flex-shrink: 0;
+        margin-bottom: 200px;
+    }
+
+    #bar{
+        display: none;
+    }
+
+    #bar-mobile {
+        display: block;
+        transform: scale(1.1);
+    }
+
+    #heading--designs{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 110px; /* 229.167% */
+        text-transform: uppercase;
+    }
+
+    .head--pro{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28.6px; /* 143% */
+        text-transform: uppercase;
+        margin-bottom: 10px;
+    }
+    
+    .sub--pro{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 13px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 16.8px; /* 129.231% */
+        text-transform: uppercase;
+    }
+
+    .centere{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .project--image{
+        width: 300px;
+        height: 300px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .holder {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+     }
+    
+    .project--placement{
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+        flex-direction: column;
+        margin: 0 100px;
+    }
+    
+    #left-element {
+        margin-bottom: 0;
+    }
+    
+    #right-element{
+        margin-top: 0;
+    }
+
+    .plane--2{
+        display: none;
+    }
+
+    #asking{
+        display: none;
+    }
+
+    #mobile-plane {
+        display: block;
+        margin-bottom: 50px;
+    }
+    
+    .holder1 {
+        display: none;
+    }
+
+    .holder-mobile{
+        display: block;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    #mobile-part{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #small-text1{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 26.7px;
+        display: flex;
+        width: 322px;
+        height: 101px;
+        flex-direction: column;
+        justify-content: center;
+        flex-shrink: 0;
+        margin-bottom: 60px;
+    }
+
+    #mobile-placement{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 60px;
+    }
+    
+    #big--text1{
+        color: #000;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 60px; /* 440% */
+        text-transform: uppercase;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: -30px;
+    }   
+
+    #hands--crossed{
+        scale: (0.75);
+        display: flex;
+        justify-content: center;
+    }
+    
+    .big--text2{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 110px; /* 239.13% */
+        text-transform: uppercase;
+        padding-bottom: 10px;
+    }
+    
+    .small-text2{
+        color: #000;
+        text-align: center;
+        font-family: Inter;
+        font-style: normal;
+        font-weight: 500;
+        width: 350px;
+    }
+    
+    #chefio--image1{
+        display: none;
+    }
+    
+    #chefio--image2{
+        display: block;
+        margin-top: -60px;
+    }
+
+    #conclusion{
+        width: 330px;
+    }
+
+    #medicol--image1{
+        display: none;
+    }
+
+    #medicol--image2{
+        display: block;
+    }
+}
