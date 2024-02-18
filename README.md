@@ -47,7 +47,7 @@ The journey commenced with an exploration of HTML, CSS, and JavaScript. The port
 
 1. Clone the repository: `git clone https://github.com/Stoic-Coder2003/My-Portfolio.git`
 2. Open `index.html` in your preferred browser.
-3. You may directly, view the deployed site at : https://shubh-mehrotra.vercel.app/
+3. You may directly, view the deployed site at : https://shubh-mehrotra-ashen.vercel.app/
 
 # 📸 **Project Image:**
 
